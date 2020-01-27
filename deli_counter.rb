@@ -37,3 +37,7 @@ def take_a_number(line, name)
   number = line.size
   puts "Welcome, #{name}. You are number #{number} in line."
 end
+
+def now_serving
+  
+end
