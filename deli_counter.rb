@@ -39,5 +39,6 @@ def take_a_number(line, name)
 end
 
 def now_serving(deli_line)
-  line(deli_line)
+  if deli_line.empty?
+    
 end
