@@ -38,6 +38,6 @@ def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
-def now_serving(line)
-  
+def now_serving(deli_line)
+  line(deli_line)
 end
